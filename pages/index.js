@@ -1,8 +1,13 @@
+import {EmptyState, Layout, Page} from '@shopify/polaris'
 const Index = () => {
     return(
-        <div>
-            <p>ths is sample content next.js</p>
-        </div>  
+        <Page>
+            <Layout>
+                <EmptyState>
+                    <p>this is testing shopify polaris</p>
+                </EmptyState>
+            </Layout>
+        </Page>
     )
     
 }
