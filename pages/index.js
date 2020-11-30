@@ -4,7 +4,7 @@ const Index = () => {
         <Page>
             <Layout>
                 <EmptyState>
-                    <p>this is testing shopify polaris</p>
+                    <p>this is testing heroku shopify polaris</p>
                 </EmptyState>
             </Layout>
         </Page>
